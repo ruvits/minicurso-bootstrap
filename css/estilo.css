@@ -1,0 +1,5 @@
+#cabecalho {
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+    min-height: 80vh;
+}
