@@ -7,3 +7,14 @@
 #conteudo  {
     min-height: 100px;
 }
+
+.accordion-item button, .accordion {
+    background-color: gray  !important;
+    color: rgb(0, 0, 0);
+    border: 0px solid black !important;
+}
+
+.accordion-item, .accordion-body {
+    background-color: darkgray  !important;
+    color: 0px solid black !important;
+}

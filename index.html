@@ -12,24 +12,97 @@
 <body>
     <div class="container-fluid bg-black">
         <div id="cabecalho" class="row">
-            <div id="navbar" class="row">
+            <div id="navbar" class="navbar navbar-expend-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#menu" aria-controls="menu">
+                        <span class="navbar-toggle-icon"></span>
+                    </button>
+                    <div id="menu" class="collapse navbar-collapse">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo.png" alt="">
+                        </a>
 
+                        <ul class="navbar-nav">
+                            <li class="nav-link">
+                                <a href="#">português</a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#">entrar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
             <div id="destaque" class="row">
 
             </div>
         </div>
-        <div id="conteudo" class="row border-top border-bottom border-secondary border-5 justify-content-center align-items-center">
-            <div class="col-sm-5 col-10 text-light">
-                <h1> Aproveite na TV. </h1>
-                <p class="fs-3"> Assista em Smart TVs, Playstation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos. </p>
+
+        <div id="conteudo" class="row border-top border-bottom border-secondary border-5 justify-content-center align-items-center py-4">
+            <div class="col-sm-4 col-8 text-light">
+                <h1 class="fw-bold mb-3 fs-1"> Aproveite na TV. </h1>
+                <p class="fs-3 fw-semibold"> Assista em Smart TVs, Playstation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos. </p>
             </div>
 
-            <div class="col-sm-5 col-10">
+            <div class="col-sm-4 col-8">
                 <img src="img/tv.png" class="img-fluid" alt="">
             </div>
         </div>
+
+        <div id="conteudo" class="row border-top border-bottom border-secondary border-5 justify-content-center align-items-center py-4">
+            <div class="col-sm-4 col-8">
+                <img src="img/device-pile.png" class="img-fluid" alt="">
+            </div>
+            
+            <div class="col-sm-4 col-8 text-light">
+                <h1 class="fw-bold mb-3 fs-1"> Assista quando quiser. </h1>
+                <p class="fs-3 fw-semibold"> Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso. </p>
+            </div>
+
+        </div>
+
+        <div id="conteudo" class="row border-top border-bottom border-secondary border-5 justify-content-center align-items-center py-4">
+            <div class="col-sm-4 col-8 text-light">
+                <h1 class="fw-bold mb-3 fs-1">Crie perfis para crianças. </h1>
+                <p class="fs-3 fw-semibold"> Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso. </p>
+            </div>
+
+            <div class="col-sm-4 col-8">
+                <img src="img/filme.png" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <div id="conteudo" class="row border-top border-bottom border-secondary border-5 justify-content-center align-items-center py-4">
+            <div class="col-sm-4 col-8">
+                <img src="img/mobile-0819.jpg" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-sm-4 col-8 text-light">
+                <h1 class="fw-bold mb-3 fs-1"> Baixe séries para assistir offline. </h1>
+                <p class="fs-3 fw-semibold"> Disponível em todos os planos, exceto no Básico com anúncios. </p>
+            </div>
+
+        </div>
+
+        <div id="conteudo" class="row border-top border-bottom border-secondary border-5 justify-content-center align-items-center py-5">
+            <div class="col-8 col-sm-8 text-light">
+                <h1 class="pb-4"> Perguntas frequentes</h1>
+                <div class="accordion">
+                    <div class="accordion-item bg-dark text-light">
+                        <h2 class="accordion-header bg-dark text-light" id="pergunta1">
+                            <button class="accordion-button text-light" type="button" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#resposta1" aria-controls="resposta1">Pergunta 1</button>
+                        </h2>
+                        <div id="resposta1" class="accordion-collapse collapse" aria-labelledby="pergunta1" data-bs-parent="#pergunta1">
+                            <div class="accordion-body">
+                                Resposta 1
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div id="rodape" class="row">
             <div class="col">
 
